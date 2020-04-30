@@ -42,7 +42,7 @@ pkg "ggplotnim", true, "nimble testCI"
 pkg "glob"
 pkg "gnuplot"
 pkg "hts", false, "nim c -o:htss src/hts.nim"
-pkg "httpauth", true
+# pkg "httpauth", true
 pkg "illwill", false, "nimble examples"
 # pkg "inim", true # pending https://github.com/inim-repl/INim/issues/74
 pkg "itertools", false, "nim doc src/itertools.nim"
@@ -77,12 +77,12 @@ pkg "nimgen", true, "nim c -o:nimgenn -r src/nimgen/runcfg.nim"
 pkg "nimlsp", true
 pkg "nimly", true
 # pkg "nimongo", true, "nimble test_ci"
-pkg "nimph", true, "nimble test", "https://github.com/disruptek/nimph"
+# pkg "nimph", true, "nimble test", "https://github.com/disruptek/nimph"
 pkg "nimpy", false, "nim c -r tests/nimfrompy.nim"
 pkg "nimquery"
 pkg "nimsl", true
 pkg "nimsvg"
-pkg "nimterop", true
+# pkg "nimterop", true
 pkg "nimwc", true, "nim c nimwc.nim"
 pkg "nimx", true, "nim c --threads:on test/main.nim"
 pkg "nitter", true, "nim c src/nitter.nim", "https://github.com/zedeus/nitter"
